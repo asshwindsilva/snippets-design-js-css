@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+  
+}
+.container img{
+    width: 100%;
+    position: absolute;
+    height: 110vh;
+    object-fit: cover;
+    z-index: -1;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+}
+.main-title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 5rem;
+    transform: translate(-50%,-30%);
+}
+.content{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    min-height: 100vh;
+    z-index: 2;
+    position: absolute;
+}
+.content-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.text{
+    padding: 2rem 20rem;
+    font-size: 1.1rem;
+}
